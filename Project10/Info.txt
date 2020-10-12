@@ -1,0 +1,30 @@
+// Please remember: templates do not NEED to correlate to paramaters.
+// If they happen to correlate, then it will allow the compiler to figure out the type parameters for us,
+// but in some cases the template params are just to be used inside the function.
+//
+// template<typename T>
+// double diagonal(double s1, double s2) {
+// 	return sqrt(((T)s1*(T)s1 + (T)s2*(T)s2));
+// }
+// 		auto result1 = diagonal<double>(5.5,3.3);
+// 		auto result2 = diagonal<int>(5.5,3.3);
+
+
+
+/*
+Create a function called validate in a file called validate.h
+that accepts four arguments (a minimum, an array of test-values, number of elements in the array, an array of Boolean for validation results)
+and returns a bool that is true only if ALL the test-value elements are greater than the minimum, and false otherwise.
+
+That is: Return true, if testValues[i] >= minimum (for “i” being the index of the elements in testValue) and return false otherwise.
+
+Also, as the validation test is being done on each element, the result of validation is saved for each element in the Boolean array. So, the caller program can determine exactly which element of the testValue array is valid or invalid.
+
+Make sure the function is designed in a way that all test objects (min, and test elements) are not copied or modified in the function.
+
+
+
+*/
+
+
+
